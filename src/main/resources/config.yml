@@ -1,0 +1,20 @@
+# Time window in seconds for each test
+window_seconds: 30
+
+# Minimum number of intervals required to judge
+min_intervals: 20
+
+# CPS band considered “combat plausible” on your server (adjust as needed)
+cps_min: 3.0
+cps_max: 9.0
+
+# Coefficient of variation thresholds
+cv_suspicious: 0.08
+cv_borderline: 0.10
+
+# Fraction of intervals that may fall into top two 50 ms tick-bins
+duplicate_ratio_suspicious: 0.60
+duplicate_ratio_borderline: 0.50
+
+# Whether to announce to the tested player
+notify_target: true
