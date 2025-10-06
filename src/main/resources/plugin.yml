@@ -1,0 +1,15 @@
+name: AutoClickTest
+main: penta.plugins.AutoClickTest
+version: 1.0.0
+api-version: "1.21"
+commands:
+  autoclick:
+    description: Start a 30s click-timing test on a player
+    usage: /autoclick test <player>
+    permission: autoclicktest.use
+permissions:
+  autoclicktest.use:
+    default: op
+softdepend:
+  - ProtocolLib
+  - floodgate
